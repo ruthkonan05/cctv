@@ -21,7 +21,7 @@ firebase_admin.initialize_app(cred,{
     "databaseURL":"https://prof-kim-default-rtdb.asia-southeast1.firebasedatabase.app/",
     "storageBucket":"prof-kim.appspot.com"
 })
-registration_token = 'e1wPRq3eTryX-1V9Tqx6LK:APA91bH1k8G76VQF05MkPNrnAvZBXuh7hG6fKUr682wUyhyT0iLi3444F09RjmkZ80hWrUb_B6UsTuynqtLRdsbfkefUSFvLc_oNnE4aio0-GQyYho7QqvAkoPjEdQFS1Q1CRgFzFmv5'
+registration_token = 'token'
 
 bucket = storage.bucket()
 #cam = cv.VideoCapture(0)
