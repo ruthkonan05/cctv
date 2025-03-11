@@ -6,7 +6,7 @@ their movement patterns using an ultrasonic sensor (HC-SR04) and a Machine Learn
 This system is designed for use in an office to distinguish between the owner and visitors. It relies on a Raspberry 
 Pi, which collects the data and sends it to an interactive dashboard for visualization.
 
-##🎯 Project Goals
+## 🎯 Project Goals
 ✅ Design a sensor-based detection system
 ✅ Use artificial intelligence to identify individuals
 ✅ Store and analyze real-time data with MongoDB
