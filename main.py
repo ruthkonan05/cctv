@@ -17,7 +17,7 @@ import time
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
-    "databaseURL":"https://prof-kim-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "databaseURL":"databaseurl",
     "storageBucket":"prof-kim.appspot.com"
 })
 bucket = storage.bucket()
