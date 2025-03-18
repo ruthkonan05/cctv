@@ -3,7 +3,7 @@ import numpy as np
 import face_recognition
 
 # URL de la caméra IP
-url = "rtsp://admin:TYIZXA@192.168.222.10/h264/ch1/main/av_stream"
+url =""
 
 # Ouvrir le flux vidéo de la caméra IP
 cam = cv.VideoCapture(url)
