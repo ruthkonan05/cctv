@@ -18,7 +18,7 @@ import time
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
     "databaseURL":"databaseurl",
-    "storageBucket":"prof-kim.appspot.com"
+    "storageBucket":"prof-kim."
 })
 bucket = storage.bucket()
 cam = cv.VideoCapture(0)
