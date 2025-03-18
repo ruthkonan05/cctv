@@ -18,14 +18,14 @@ import matplotlib.pyplot as plt
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
-    "databaseURL":"https://prof-kim-default-rtdb.asia-southeast1.firebasedatabase.app/",
-    "storageBucket":"prof-kim.appspot.com"
+    "databaseURL":"https://prof-kim",
+    "storageBucket":"prof-kim"
 })
 registration_token = 'token'
 
 bucket = storage.bucket()
 #cam = cv.VideoCapture(0)
-cam = cv.VideoCapture("rtsp://admin:TYIZXA@192.168.222.10/h264/ch1/main/av_stream")
+cam = cv.VideoCapture("lll")
 if not cam.isOpened():
     print("Erreur: Impossible d'ouvrir le flux vidéo.")
     
