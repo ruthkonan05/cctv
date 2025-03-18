@@ -10,7 +10,7 @@ from firebase_admin import storage
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
     "databaseURL":"databaseurl_firebase/",
-    "storageBucket":"prof-kim.appspot.com"
+    "storageBucket":"prof-kim.m"
 })
 
 folderPath = "image"
