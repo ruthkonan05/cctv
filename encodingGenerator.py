@@ -11,7 +11,7 @@ from imutils import paths
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
     "databaseURL":"databaseurl_firebase",
-    "storageBucket":"prof-kim.appspot.com"
+    "storageBucket":"prof-kim"
 })
 imagePaths = list(paths.list_images("images"))
 # folderPath = "image"
