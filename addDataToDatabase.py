@@ -24,7 +24,7 @@ data={
         "entry":9,
         "lastRegister":"2024-04-23 01:06:05",
         "state":"0",
-        "imageURL": "gs://prof-kim.appspot.com/image/12346.jpeg",
+        "imageURL": "prof-kim.appspot.com/",
 
     },
     "12348":{
@@ -34,7 +34,7 @@ data={
         "entry":5,
         "lastRegister":"2024-04-23 01:07:05",
         "state":"0",
-        "imageURL": "gs://prof-kim.appspot.com/image/12348.jpeg",
+        "imageURL": "/prof-kim.",
 
     },
     "12459":{
@@ -44,7 +44,7 @@ data={
         "entry":1,
         "lastRegister":"2024-04-23 01:08:05",
         "state":"0",
-        "imageURL": "gs://prof-kim.appspot.com/image/12459.jpeg",
+        "imageURL": "gs://prof-kim.a",
 
     },
     "12349":{
@@ -54,7 +54,7 @@ data={
         "entry":1,
         "lastRegister":"2024-04-23 01:08:05",
         "state":"0",
-        "imageURL": "gs://prof-kim.appspot.com/image/12349.jpeg",
+        "imageURL": "rof-kim.appsp",
 
     },
 }
